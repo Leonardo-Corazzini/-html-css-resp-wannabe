@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+   .container{
+    max-width: 600px;
+   }
+}
+@media (max-width: 480px) {
+    .row{
+        flex-wrap: wrap;
+        row-gap: 50px;
+    }
+    .container{
+        max-width: 300px;
+       }
+    
+  
+    .lessons .col {
+        width: 100%;
+    }
+    .steps .col {
+        width: 100%;
+    }
+    .why-us .row > *{
+        width: 100%;
+    }
+}
+    
